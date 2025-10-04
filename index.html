@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JW7498D2XX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JW7498D2XX');
+</script>
+  <meta charset="utf-8">
+  <title>Free-KML-KMZ Viewer Online</title>
+  <meta name="description" content="Free online kmz kml file viewer web mapping application. free viewer for KML and KMZ maps. Use this tool to view KML on web">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="logo-bar">
+        <a href="https://onlinemapmaker.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://onlinemapmaker.com/img/cropped-logo_small.png" alt="Logo" class="logo">
+    </a>
+    </div>
+    <style>
+        /*log bar*/
+/* Grey logo bar at the top */
+.logo-bar {
+    background-color: #ffffff; /* light grey */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Logo image */
+.logo {
+    height: 40px;
+    object-fit: contain;
+}
+    </style>
+  <div id="map">
+      <div id="controls">
+    <input type="file" id="fileInput" accept=".kml,.kmz" />
+    <label for="colorPicker">Change Color:</label>
+    <input type="color" id="colorPicker" value="#ff0000" />
+  </div> 
+      
+  </div>
+
+  <!-- Libraries -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
