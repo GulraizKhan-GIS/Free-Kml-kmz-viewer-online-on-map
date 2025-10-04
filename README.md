@@ -1,4 +1,4 @@
-Kmz Kml file viewer free web map application is very easy to use.
+Kmz Kml file viewer free web map application is very easy to use. https://onlinemapmaker.com/kml-kmz-viewer-view-kml-map-online-free/
 
 Key Features of .kml .kmz Viewer
 One click upload of kml or kmz file.
